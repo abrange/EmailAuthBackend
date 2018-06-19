@@ -16,6 +16,7 @@ class EmailAuthBackend(object):
         ...
         )
         # Note: Here fibase is the name of my application, so you must change it to match your application folder
+        #       If your don't want to allow user login using username, you should remove .ModelBackend from the list.
 
     """
 
