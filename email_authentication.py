@@ -23,7 +23,7 @@ class EmailAuthBackend(object):
 
         user_ = None
         try:
-            # Validate that username (password) is not None and at least 3 of length 
+            # Validate that username (email) is not None and at least 3 of length 
             if username is not None and len(username) > 2:
                 user_ = User.objects.get(email=username)
 
